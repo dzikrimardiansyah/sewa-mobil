@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('detail_mobil', function (Blueprint $table) {
             $table->id();
+            $table->string('merek_mobil');
+            $table->string('model_mobil');
+            $table->string('no_plat')->unique();
+            $table->string('price_mobil');
             $table->timestamps();
         });
     }
