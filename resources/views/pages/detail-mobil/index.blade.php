@@ -1,6 +1,6 @@
 <?php $page="user-reports";?>
 @extends('layouts.app')
-@section('title','all-course')
+@section('title','all-car')
 	
 @section('content')
 	
@@ -13,7 +13,7 @@
 						<div class="col-sm-12">
                            
 						   <div class="col-md-12 text-md-end">
-							<a href="{{route('backsite.detail-mobil.create')}}" class="btn btn-primary btn-blog mb-3 text-black">Add Course</a>
+							<a href="{{route('backsite.detail-mobil.create')}}" class="btn btn-primary btn-blog mb-3 text-black">Add Car</a>
 						</div>
 						 
 
@@ -22,7 +22,7 @@
 								<div class="card-header border-bottom-0">
 									<div class="row align-items-center">
 										<div class="col">
-											<h5 class="card-title">All Course</h5>
+											<h5 class="card-title">All Car</h5>
 										</div>
 										<div class="col-auto d-flex">
 											<div class="form-custom me-2">

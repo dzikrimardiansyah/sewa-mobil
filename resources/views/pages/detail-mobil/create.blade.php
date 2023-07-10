@@ -10,7 +10,7 @@
 		<!-- Add Blog -->					
 		<div class="row">
 			<div class="col-md-6">
-				<h5 class="mb-3">Add Mobil</h5>
+				<h5 class="mb-3">Add Car</h5>
 				<div class="row">
 					<form action="{{ route('backsite.detail-mobil.store') }}" method="POST" enctype="multipart/form-data">
 					@csrf

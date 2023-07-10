@@ -3,7 +3,7 @@
     <head>
         @include('includes.backsite.meta')
 
-        <title>@yield('title') | MYTUTORIA</title>
+        <title>@yield('title') | Car Rental</title>
 
         @stack('before-style')
             @include('includes.backsite.style')
