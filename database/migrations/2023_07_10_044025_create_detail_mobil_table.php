@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('model_mobil');
             $table->string('no_plat')->unique();
             $table->string('price_mobil');
+            $table->string('photo');
             $table->timestamps();
         });
     }

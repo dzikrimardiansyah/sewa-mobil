@@ -13,9 +13,6 @@ return new class extends Migration
     {
         Schema::create('detail_user', function (Blueprint $table) {
             $table->id();
-            $table->longText('address');
-            $table->string('no_handphone');
-            $table->string('no_sim')->unique();
             $table->timestamps();
         });
     }
