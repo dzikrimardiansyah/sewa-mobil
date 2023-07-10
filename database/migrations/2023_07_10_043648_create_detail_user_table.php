@@ -13,10 +13,12 @@ return new class extends Migration
     {
         Schema::create('detail_user', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->index('fk_detail_user_to_users');
             $table->longText('address');
             $table->string('no_handphone');
             $table->string('no_sim')->unique();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -27,4 +29,6 @@ return new class extends Migration
     {
         Schema::dropIfExists('detail_user');
     }
+
+   
 };
